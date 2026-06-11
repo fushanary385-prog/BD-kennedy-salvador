@@ -5,6 +5,8 @@ SELECT film_actor.actor_id, film.title
 FROM film
 INNER JOIN film_actor
 ON film_actor.film_id=film.film_id;
+
+
 #1
 SELECT customer.first_name, payment.amount
 FROM payment
